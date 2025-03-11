@@ -52,4 +52,3 @@ Examples of generated outputs (default parameters):
 <img src="output/result_img1.jpg" alt="IMG1" width="400" style="margin-right: 10px"/>
 <img src="output/result_img2.jpg" alt="IMG2" width="400"/>
 
->>>>>>> 5955288 (version 1.0)
