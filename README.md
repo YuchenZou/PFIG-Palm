@@ -36,7 +36,7 @@ python train.py --dataroot data/train --save_dir output/train --cuda
 ```
 This command will start a training session using the images under the data/train directory. By default, the model is trained with the hyperparameters optimized for the PFIG-Palm architecture. You can modify these hyperparameters as needed. Both generators and discriminators weights will be saved under the output directory.
 
-You can also view the training progress as well as live output images by running ```python3 -m visdom``` in another terminal and opening [http://localhost:8097/](http://localhost:8097/) in your web browser.
+You can also view the training progress as well as live output images by running ```python3 -m visdom.server``` in another terminal and opening [http://localhost:8097/](http://localhost:8097/) in your web browser.
 
 
 ## Testing
