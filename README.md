@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# PFIG-Palm
-=======
 # Pytorch-PFIG-Palm
 The PyTorch implementation of PFIG-Palm: Controllable Palmprint Generation via Pixel and Feature Identity Guidance
 ## Prerequisites
