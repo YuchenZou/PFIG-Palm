@@ -10,7 +10,7 @@ from models.D_patch import Discriminator_Patch
 from models.DINO import DinoNet
 from util import LambdaLR, Logger, d_logistic_loss, g_nonsaturating_loss, set_requires_grad, save_generated_images
 from data.datasets import ImageDataset
-from models.FII_module import FII
+from models.IDI_module import IDI
 from options.train_option import train_config, get_train_transforms
 from torch.nn import DataParallel
 from torch.nn.functional import cosine_similarity
@@ -47,7 +47,7 @@ def train(epoch, dataloader, netG, netD, netF, optimizer_G, optimizer_D, pix_los
         loss_G = g_nonsaturating_loss(fake_pred)
 
         # Calculate pixel loss
-        fake_fft_palm = FII(line, real_palm)
+        fake_fft_palm = IDI(line, real_palm)
         loss_pix = pix_loss(fake_palm, fake_fft_palm)
 
         # Calculate feature loss
