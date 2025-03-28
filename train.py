@@ -135,8 +135,8 @@ def main():
         lr_scheduler_D.step()
 
         # Save models checkpoints
-        if epoch>5 and epoch%2==0:
-            save_model_checkpoint(opt.save_dir, netG, netD, epoch+1)
+        if epoch>10 and epoch%2==0:
+            save_model_checkpoint(opt.save_dir, netG, netD, epoch)
 
 
 def save_model_checkpoint(checkpoint_dir, netG, netD, epoch):
@@ -146,7 +146,5 @@ def save_model_checkpoint(checkpoint_dir, netG, netD, epoch):
     torch.save(netD.state_dict(), os.path.join(checkpoint_dir, f'netD_epoch_{epoch}.pth'))
 
 
-import os
 if __name__ == '__main__':
-    os.environ["CUDA_VISIBLE_DEVICES"] = "1"
     main()
