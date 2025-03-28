@@ -26,7 +26,7 @@ You can build your own dataset by setting up the following directory structure:
     
 where lines can be synthesized by BeizerCurve/synthesize2d.py:
 ```
-python BeizerCurve/synthesize2d.py --num_ids 10 --sample 2
+python BezierCurve/synthesize2d.py --num_ids 10 --sample 2
 ```
 
 ### 2. Train!
