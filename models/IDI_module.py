@@ -10,8 +10,8 @@ def fourier_transform(image):
 def ifft_transform(magnitude, phase):
     complex_tensor = magnitude * torch.exp(1j * phase)
     ifft_result = torch.fft.ifft2(complex_tensor)
-    # ifft_result = torch.clamp(ifft_result.real, -1, 1)
-    return ifft_result.real
+    ifft_result = torch.clamp(ifft_result.real, -1, 1)
+    return ifft_result
 
 
 def replace_phase(phase_spectrum1, phase_spectrum2, radius_ratio=0.99):
