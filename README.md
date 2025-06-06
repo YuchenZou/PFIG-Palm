@@ -24,7 +24,7 @@ You can build your own dataset by setting up the following directory structure:
     |   └── val                # Testing
     |   |   └── line              # Contains domain A images 
     
-where lines can be synthesized by BeizerCurve/synthesize2d.py:
+where lines can be synthesized by BezierCurve/synthesize2d.py:
 ```
 python BezierCurve/synthesize2d.py --num_ids 10 --sample 2
 ```
