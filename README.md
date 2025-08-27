@@ -49,7 +49,6 @@ This command will process the images in the dataroot directory, generate palmpri
 Examples of generated outputs (default parameters):
 
 <img src="output/result_img1.jpg" alt="IMG1" width="400" style="margin-right: 10px"/>
-<br/>
 <img src="output/result_img2.jpg" alt="IMG2" width="400"/> 
 <br/>
 
