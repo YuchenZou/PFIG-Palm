@@ -52,6 +52,14 @@ Examples of generated outputs (default parameters):
 <img src="output/result_img2.jpg" alt="IMG2" width="400"/> 
 <br/>
 
+## Text-Prompt-control Generation
+
+We provide a demo script **`test_text_control_demo.py`** for generating palmprints from line images using text prompts (CLIP-guided).
+
+```bash
+python test_text_control_demo.py
+```
+
 Examples of text prompt outputs:
 
 <img src="output/text_control.png" alt="IMG2" width="400"/>
