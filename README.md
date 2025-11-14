@@ -97,9 +97,10 @@ If you use this code or our pre-trained models in your research, please cite our
 @article{zou2025pfig,
     title        = {PFIG-Palm: Controllable Palmprint Generation via Pixel and Feature Identity Guidance},
     author       = {Zou, Yuchen and Shao, Huikai and Liu, Chengcheng and Zhu, Siyu and Hou, Zongqing and Zhong, Dexing},
-    year         = 2025,
     journal      = {IEEE Trans. Image Process.},
     volume       = 34,
-    pages        = {6603--6615}
+    pages        = {6603--6615},
+    year         = 2025
 }
 ```
+
