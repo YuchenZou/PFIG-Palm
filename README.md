@@ -2,6 +2,16 @@
 
 The PyTorch implementation of PFIG-Palm: Controllable Palmprint Generation via Pixel and Feature Identity Guidance
 
+## Pre-trained Models and Generated Samples
+
+We provide pre-trained model weights and generated samples (2000 IDs with 40 images per ID) on Google Drive:
+
+**[Download Link](https://drive.google.com/drive/folders/1qyOJjNbFrh_TcaNWWVCIQhZkRq3NfFyf)**
+
+The folder contains:
+- Pre-trained generator weights
+- Generated palmprint samples: 2000 identities × 40 images each
+
 ## Prerequisites
 
 Code is intended to work with ```Python 3.8.x```, it hasn't been tested with previous versions
@@ -79,16 +89,6 @@ Examples of text prompt outputs:
 
 <img src="output/text_control.png" alt="IMG2" width="400"/>
 
-## Pre-trained Models and Generated Samples
-
-We provide pre-trained model weights and generated samples (2000 IDs with 40 images per ID) on Google Drive:
-
-**[Download Link](https://drive.google.com/drive/folders/1qyOJjNbFrh_TcaNWWVCIQhZkRq3NfFyf)**
-
-The folder contains:
-- Pre-trained generator and discriminator weights
-- Generated palmprint samples: 2000 identities × 40 images each
-
 ## Citation
 
 If you use this code or our pre-trained models in your research, please cite our paper:
@@ -103,7 +103,3 @@ If you use this code or our pre-trained models in your research, please cite our
     pages        = {6603--6615}
 }
 ```
-
-## Acknowledgments
-
-[Add any acknowledgments here]
